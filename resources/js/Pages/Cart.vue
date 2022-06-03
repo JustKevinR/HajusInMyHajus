@@ -80,7 +80,7 @@ onMounted(() => {
 })
 
 
-let stripe = Stripe("pk_test_51L6WkZIq9fDD08fECxt37reImUcSJtZB9d0DJDB8I1hXyxI9WJwZGmQhPjc7qokb708z9lybRTsjk0Z48Kory12N00IHZnmiK1")
+let stripe = Stripe("pk_test_51L6WxYCxL3Zhze4h1XnXO64MJ4oAjNRd8Az99ON6dWDO0DjwYiC2CrOxh1q2jHNN6KodFtfyQH7KFQBfojmQgOVH00VuguOGnX")
 
 function redirect() {
     const items = []

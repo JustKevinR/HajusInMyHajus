@@ -29,7 +29,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/weather', [WeatherController::class, 'weather']);
+Route::get('/Weather', [WeatherController::class, 'weather']);
 
 Route::get('/blog', [BlogController::class, 'index']);
 Route::post('/comments', [CommentsController::class, 'index']);
