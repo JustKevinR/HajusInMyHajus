@@ -16,14 +16,15 @@ See on tühi Laravel + vue app koos inertia ja vite'ga (Autentimine on juba kül
 * `php artisan key:generate`
 * `php artisan config:clear`
 * `php artisan migrate`
-
+composer require spatie/laravel-permission
 * `php artisan serve` - käivitab laravel'i
 * `npx vite` - käivitab vite
 
 Deployment
 * Seadista enda zone'i serveri järgi deploy.php fail.
 * `./dep deploy` Kui tuleb kiri et, permission denied siis `chmod +x dep` ja proovi uuesti
-
+ $user->assignRole
+$user->assignRole('Admin');
 
 # Hajusrakenduse ülesanded
 ## 1. Vabalt valitud ilma API

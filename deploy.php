@@ -11,14 +11,14 @@ set('http_user', '');
 set('keep_releases', 2);
 
 // Hosts
-host('nimi.itmajakas.ee')
-    ->setHostname('nimi.itmajakas.ee')
-    ->set('http_user', '')
-    ->set('deploy_path', '~/domeenid/www.nimi.itmajakas.ee/kataloog')
+host('tak19reinov.itmajakas.ee')
+    ->setHostname('tak19reinov.itmajakas.ee')
+    ->set('http_user', 'virt83027')
+    ->set('deploy_path', '~/domeenid/tak19reinov.itmajakas.ee/hajus')
     ->set('branch', 'dev');
 
 // Tasks
-set('repository', 'repo nimi');
+set('repository', 'https://github.com/JustKevinR/HajusInMyHajus.git');
 //Restart opcache
 task('opcache:clear', function () {
     run('killall php80-cgi || true');
