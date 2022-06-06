@@ -25,7 +25,7 @@ class StoreController extends Controller
 
     if($data){
 
-        $stripe = new \Stripe\StripeClient(env('STRIPE_SK'));
+        $stripe = new \Stripe\StripeClient(env('pk_test_51L6WxYCxL3Zhze4h1XnXO64MJ4oAjNRd8Az99ON6dWDO0DjwYiC2CrOxh1q2jHNN6KodFtfyQH7KFQBfojmQgOVH00VuguOGnX'));
 
         foreach ($data as $value) {
 
